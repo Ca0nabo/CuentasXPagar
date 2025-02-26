@@ -33,6 +33,7 @@
             this.btnDocumentos = new System.Windows.Forms.Button();
             this.btnSolicitudes = new System.Windows.Forms.Button();
             this.btnCerrarSesion = new System.Windows.Forms.Button();
+            this.btnReportes = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnConceptos
@@ -47,7 +48,7 @@
             // 
             // btnProveedores
             // 
-            this.btnProveedores.Location = new System.Drawing.Point(150, 12);
+            this.btnProveedores.Location = new System.Drawing.Point(152, 12);
             this.btnProveedores.Name = "btnProveedores";
             this.btnProveedores.Size = new System.Drawing.Size(110, 23);
             this.btnProveedores.TabIndex = 1;
@@ -57,7 +58,7 @@
             // 
             // btnDocumentos
             // 
-            this.btnDocumentos.Location = new System.Drawing.Point(290, 12);
+            this.btnDocumentos.Location = new System.Drawing.Point(292, 12);
             this.btnDocumentos.Name = "btnDocumentos";
             this.btnDocumentos.Size = new System.Drawing.Size(110, 23);
             this.btnDocumentos.TabIndex = 2;
@@ -67,7 +68,7 @@
             // 
             // btnSolicitudes
             // 
-            this.btnSolicitudes.Location = new System.Drawing.Point(430, 12);
+            this.btnSolicitudes.Location = new System.Drawing.Point(432, 12);
             this.btnSolicitudes.Name = "btnSolicitudes";
             this.btnSolicitudes.Size = new System.Drawing.Size(110, 23);
             this.btnSolicitudes.TabIndex = 3;
@@ -77,7 +78,7 @@
             // 
             // btnCerrarSesion
             // 
-            this.btnCerrarSesion.Location = new System.Drawing.Point(678, 12);
+            this.btnCerrarSesion.Location = new System.Drawing.Point(678, 415);
             this.btnCerrarSesion.Name = "btnCerrarSesion";
             this.btnCerrarSesion.Size = new System.Drawing.Size(110, 23);
             this.btnCerrarSesion.TabIndex = 4;
@@ -85,11 +86,22 @@
             this.btnCerrarSesion.UseVisualStyleBackColor = true;
             this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
             // 
+            // btnReportes
+            // 
+            this.btnReportes.Location = new System.Drawing.Point(572, 12);
+            this.btnReportes.Name = "btnReportes";
+            this.btnReportes.Size = new System.Drawing.Size(110, 23);
+            this.btnReportes.TabIndex = 5;
+            this.btnReportes.Text = "Reportes";
+            this.btnReportes.UseVisualStyleBackColor = true;
+            this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
+            // 
             // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnReportes);
             this.Controls.Add(this.btnCerrarSesion);
             this.Controls.Add(this.btnSolicitudes);
             this.Controls.Add(this.btnDocumentos);
@@ -108,5 +120,6 @@
         private System.Windows.Forms.Button btnDocumentos;
         private System.Windows.Forms.Button btnSolicitudes;
         private System.Windows.Forms.Button btnCerrarSesion;
+        private System.Windows.Forms.Button btnReportes;
     }
 }

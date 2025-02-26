@@ -34,6 +34,12 @@ namespace CuentasXPagar_WinForms
             form.Show();
         }
 
+        private void btnReportes_Click(object sender, EventArgs e)
+        {
+            ConsultaCriterios form = new ConsultaCriterios();
+            form.Show();
+        }
+
         private void btnCerrarSesion_Click(object sender, EventArgs e)
         {
             this.Close();
