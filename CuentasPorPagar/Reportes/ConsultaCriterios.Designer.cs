@@ -136,7 +136,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cbProveedor);
             this.Name = "ConsultaCriterios";
-            this.Text = "ConsultaCriterios";
+            this.Text = "Reportes";
             ((System.ComponentModel.ISupportInitialize)(this.dgvResultados)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

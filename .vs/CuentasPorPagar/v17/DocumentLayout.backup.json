@@ -1,12 +1,52 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Caonabo\\Desktop\\CxP_Proyecto 2\\CuentasPorPagar\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1AAF46C9-8CCA-4EC5-AF55-AB451B1C940D}|CuentasPorPagar\\CuentasPorPagar.csproj|c:\\users\\caonabo\\desktop\\cxp_proyecto 2\\cuentasporpagar\\cuentasporpagar\\reportes\\consultacriterios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1AAF46C9-8CCA-4EC5-AF55-AB451B1C940D}|CuentasPorPagar\\CuentasPorPagar.csproj|solutionrelative:cuentasporpagar\\reportes\\consultacriterios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AAF46C9-8CCA-4EC5-AF55-AB451B1C940D}|CuentasPorPagar\\CuentasPorPagar.csproj|c:\\users\\caonabo\\desktop\\cxp_proyecto 2\\cuentasporpagar\\cuentasporpagar\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1AAF46C9-8CCA-4EC5-AF55-AB451B1C940D}|CuentasPorPagar\\CuentasPorPagar.csproj|solutionrelative:cuentasporpagar\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Caonabo\\Desktop\\CxP_Proyecto 2\\CuentasPorPagar\\CuentasPorPagar\\MenuPrincipal.cs",
+              "RelativeDocumentMoniker": "CuentasPorPagar\\MenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\Caonabo\\Desktop\\CxP_Proyecto 2\\CuentasPorPagar\\CuentasPorPagar\\MenuPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CuentasPorPagar\\MenuPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T16:13:59.923Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsultaCriterios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Caonabo\\Desktop\\CxP_Proyecto 2\\CuentasPorPagar\\CuentasPorPagar\\Reportes\\ConsultaCriterios.cs",
+              "RelativeDocumentMoniker": "CuentasPorPagar\\Reportes\\ConsultaCriterios.cs",
+              "ToolTip": "C:\\Users\\Caonabo\\Desktop\\CxP_Proyecto 2\\CuentasPorPagar\\CuentasPorPagar\\Reportes\\ConsultaCriterios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CuentasPorPagar\\Reportes\\ConsultaCriterios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T16:13:29.237Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
