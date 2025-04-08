@@ -28,8 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cbProveedor = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConsultaCriterios));
             this.dtpFecha = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.cbEstado = new System.Windows.Forms.ComboBox();
@@ -41,26 +40,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvResultados)).BeginInit();
             this.SuspendLayout();
             // 
-            // cbProveedor
-            // 
-            this.cbProveedor.FormattingEnabled = true;
-            this.cbProveedor.Location = new System.Drawing.Point(258, 32);
-            this.cbProveedor.Name = "cbProveedor";
-            this.cbProveedor.Size = new System.Drawing.Size(121, 21);
-            this.cbProveedor.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(255, 16);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Proveedor";
-            // 
             // dtpFecha
             // 
-            this.dtpFecha.Location = new System.Drawing.Point(258, 82);
+            this.dtpFecha.Location = new System.Drawing.Point(258, 30);
             this.dtpFecha.Name = "dtpFecha";
             this.dtpFecha.Size = new System.Drawing.Size(200, 20);
             this.dtpFecha.TabIndex = 2;
@@ -68,7 +50,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(255, 66);
+            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(255, 14);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(37, 13);
             this.label2.TabIndex = 3;
@@ -77,7 +60,7 @@
             // cbEstado
             // 
             this.cbEstado.FormattingEnabled = true;
-            this.cbEstado.Location = new System.Drawing.Point(258, 132);
+            this.cbEstado.Location = new System.Drawing.Point(258, 80);
             this.cbEstado.Name = "cbEstado";
             this.cbEstado.Size = new System.Drawing.Size(121, 21);
             this.cbEstado.TabIndex = 4;
@@ -85,7 +68,8 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(255, 116);
+            this.label3.BackColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(255, 64);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(40, 13);
             this.label3.TabIndex = 5;
@@ -93,16 +77,18 @@
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(258, 182);
+            this.btnBuscar.BackColor = System.Drawing.Color.White;
+            this.btnBuscar.Location = new System.Drawing.Point(258, 130);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
             this.btnBuscar.TabIndex = 6;
             this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.UseVisualStyleBackColor = false;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // dgvResultados
             // 
+            this.dgvResultados.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.dgvResultados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvResultados.Dock = System.Windows.Forms.DockStyle.Left;
             this.dgvResultados.Location = new System.Drawing.Point(0, 0);
@@ -112,7 +98,7 @@
             // 
             // btnExportar
             // 
-            this.btnExportar.BackColor = System.Drawing.Color.LimeGreen;
+            this.btnExportar.BackColor = System.Drawing.Color.White;
             this.btnExportar.Location = new System.Drawing.Point(258, 415);
             this.btnExportar.Name = "btnExportar";
             this.btnExportar.Size = new System.Drawing.Size(200, 23);
@@ -125,6 +111,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(473, 450);
             this.Controls.Add(this.btnExportar);
             this.Controls.Add(this.dgvResultados);
@@ -133,10 +121,10 @@
             this.Controls.Add(this.cbEstado);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dtpFecha);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.cbProveedor);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "ConsultaCriterios";
-            this.Text = "Reportes";
+            this.Text = "Consultas";
             ((System.ComponentModel.ISupportInitialize)(this.dgvResultados)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -144,9 +132,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.ComboBox cbProveedor;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dtpFecha;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cbEstado;
